@@ -12,13 +12,6 @@ and let it pull. Everything is made from vanilla pieces, so it feels like someth
 > Trains only work in worlds with the **Minecart Improvements** experiment. The mod turns it on for you in every new
 > world. Worlds created before installing the mod still load fine, but their minecarts can't be linked.
 
-## Getting started
-
-1. Place two minecarts on a track.
-2. Use a **chain** on one minecart, then on the other, just like a lead.
-3. Link a **Furnace Minecart** to the front and give it coal.
-4. Watch your train go!
-
 ## Features
 
 ### Linking minecarts
