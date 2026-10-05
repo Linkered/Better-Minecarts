@@ -1,0 +1,3 @@
+// 26.3	-999999999-01-01T00:00:00	Better Minecarts/Tags for minecraft:item
+39e9fba1cf796f7bfb7d9752b33a0a0bed7a714c data/better-minecarts/tags/item/minecart_couplers.json
+150da1135a6d5d7b9cb1ec65250c0aceaa835dff data/minecraft/tags/item/furnace_minecart_fuel.json

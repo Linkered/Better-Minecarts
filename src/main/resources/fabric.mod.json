@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "better-minecarts",
+	"version": "${version}",
+	"name": "Better Minecarts",
+	"description": "Link minecarts with chains and build real trains pulled by Furnace Minecarts, all made from vanilla pieces.",
+	"authors": [
+		"Linkered"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/better-minecarts-linkered",
+		"sources": "https://github.com/Linkered/Better-Minecarts",
+		"issues": "https://github.com/Linkered/Better-Minecarts/issues"
+	},
+	"license": "MPL-2.0",
+	"icon": "assets/better-minecarts/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.linkered.betterminecarts.BetterMinecarts"
+		],
+		"client": [
+			"com.linkered.betterminecarts.client.BetterMinecartsClient"
+		],
+		"fabric-datagen": [
+			"com.linkered.betterminecarts.datagen.BetterMinecartsDataGenerator"
+		]
+	},
+	"mixins": [
+		"better-minecarts.mixins.json",
+		{
+			"config": "better-minecarts.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": ">=0.161.0"
+	}
+}

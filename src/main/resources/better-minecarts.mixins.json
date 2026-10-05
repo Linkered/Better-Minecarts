@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "com.linkered.betterminecarts.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AbstractMinecartInvoker",
+		"AbstractMinecartMixin",
+		"DetectorRailBlockMixin",
+		"DispenserBlockMixin",
+		"MinecartFurnaceAccessor",
+		"MinecartFurnaceMixin",
+		"MinecraftServerMixin",
+		"NewMinecartBehaviorMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
