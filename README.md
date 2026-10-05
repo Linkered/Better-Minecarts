@@ -36,7 +36,7 @@ and let it pull. Everything is made from vanilla pieces, so it feels like someth
 
 - **Tender:** a Minecart with Hopper linked right behind or in front of a burning Furnace Minecart feeds it fuel
   whenever it has room. It never relights one that has gone out.
-- **Block of Coal:** Furnace Minecarts can burn Blocks of Coal, which last as long as 8 pieces of coal.
+- **Block of Coal:** Furnace Minecarts can burn Blocks of Coal, which last as long as 9 pieces of coal.
 - **Dispensers:**
   - with fuel, they refuel the Furnace Minecart in front of them;
   - with a chain, they link the minecart in front of them to the nearest one;
